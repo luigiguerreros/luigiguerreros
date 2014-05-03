@@ -1,3 +1,14 @@
 // Place all the styles related to the static controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#seccionmedia {
+	.fi-megaphone{
+		float: right;
+
+	}
+	h1 {font-family: 'Sniglet', cursive;
+		text-shadow: 4px 4px 4px #5C997E;
+		color: #0F965C;
+		font-size: 102px;}
+}

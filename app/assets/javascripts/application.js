@@ -10,7 +10,11 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require foundation
+//= require foundation.js
+//= require fastclick.js
+//= require jquery.cookie.js
+//= require modernizr.js
+//= require placeholder.js
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
