@@ -1,4 +1,4 @@
-meta.foundation-version {
+`meta.foundation-version {
   font-family: "/5.2.2/"; }
 
 meta.foundation-mq-small {
@@ -5058,7 +5058,7 @@ th.hide-for-touch {
 
 .touch th.show-for-touch {
   display: table-cell !important; }
-/* 
+/*
  * Foundation Icons v 3.0
  * Made by ZURB 2013 http://zurb.com/playground/foundation-icon-fonts-3
  * MIT License
