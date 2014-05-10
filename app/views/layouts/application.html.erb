@@ -10,12 +10,21 @@
   <link href='http://fonts.googleapis.com/css?family=Sniglet:400,800' rel='stylesheet' type='text/css'>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body onload="mueveReloj()">
 <nav class="top-bar" data-topbar="">
   <ul class="title-area">
-    <!-- Title Area -->
+    <!-- Title Area1 -->
     <li class="name">
-      <h1><a href="#"><i class="fi-home size-36"></i><%= Time.now.strftime("%A %e %B %Y %H:%m:%S%p") %></a></h1>
+      <h1><a href="#"><i class="fi-home size-36"></i>
+      </a></h1>
+    </li>
+  </ul>
+  <ul class="title-area" style="left: 38%; background-color: #008CBA;">
+    <!-- Title Area2 -->
+    <li class="name">
+      <h1><form name="form_reloj">
+<input type="text" name="reloj" size="10" style="font-size: xx-large; text-align : center; background-color: transparent; border: none; box-shadow: none; color: white;" onfocus="window.document.form_reloj.reloj.blur()">
+</form></h1>
     </li>
   </ul>
 </nav>

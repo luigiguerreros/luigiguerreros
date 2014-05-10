@@ -18,4 +18,5 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require reloj.js
 //= require_tree .
