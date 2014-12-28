@@ -1,36 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Luigiguerreros</title>
+  <title>Luigi guerreros</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= favicon_link_tag 'favicon.ico' %>
-<meta name="google-site-verification" content="5viuPnIE8AiV9p7RxLjcBLI60jydue2SU4zy4Rmul_g" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href='http://fonts.googleapis.com/css?family=Sniglet:400,800' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
   <%= csrf_meta_tags %>
 
 </head>
-<body onload="mueveReloj()">
-<nav class="top-bar" data-topbar="">
-  <ul class="title-area">
-    <!-- Title Area1 -->
-    <li class="name">
-      <h1><a href="#"><i class="fi-home size-36"></i>
-      </a></h1>
-    </li>
-  </ul>
-  <ul class="title-area" style="left: 38%; background-color: #008CBA;">
-    <!-- Title Area2 -->
-    <li class="name">
-      <h1><form name="form_reloj">
-<input type="text" name="reloj" size="10" style="font-size: xx-large; text-align : center; background-color: transparent; border: none; box-shadow: none; color: white;" onfocus="window.document.form_reloj.reloj.blur()">
-</form></h1>
-    </li>
-  </ul>
-</nav>
-
+<body>
 <%= yield %>
-
 </body>
 </html>
